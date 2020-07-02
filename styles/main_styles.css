@@ -606,7 +606,7 @@ section
 .home_slider_container
 {
 	width: 100%;
-	height: 100%;
+	height: 90%;
 }
 .home_slider.owl-theme .owl-nav.disabled + .owl-dots
 {
@@ -657,8 +657,8 @@ section
 }
 .home_subtitle
 {
-	font-size: 18px;
-	color: #FFFFFF;
+	font-size: 38px;
+	color: white;
 }
 .home_title
 {
