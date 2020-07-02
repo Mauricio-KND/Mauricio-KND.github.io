@@ -282,9 +282,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3"
+				title:"Nothing But a Cat",
+					artist:"KND",
+					mp3:"files/Nothing But a Cat.wav"
 			});
 		},
 		play: function() { // To avoid multiple jPlayers playing together.
@@ -301,7 +301,7 @@ $(document).ready(function()
 		keyEnabled: true,
 		solution: 'html',
 		preload: 'metadata',
-		volume: 0.2,
+		volume: 1.0,
 		muted: false,
 		backgroundColor: '#000000',
 		errorAlerts: false,
