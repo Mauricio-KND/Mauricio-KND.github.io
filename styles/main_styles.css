@@ -1213,7 +1213,7 @@ section
 .artist_image
 {
 	width: calc(100% + 205px);
-	left: -185px;
+	left: -40px;
 	padding-right: 20px;
 }
 .artist_image img
