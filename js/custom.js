@@ -134,6 +134,24 @@ $(document).ready(function()
 			var playlist = 
 			[
 				{
+					title:"ZSERTOF",
+					artist:"KND",
+					mp3:"files/ZSERTOF.mp3",
+					duration:"6.21"
+				},
+				{
+					title:"ZSERTOF_MSTRNLG",
+					artist:"KND",
+					mp3:"files/ZSERTOF_MSTRNLG.mp3",
+					duration:"6.21"
+				},
+				{
+					title:"ZSERTOF_MSTR",
+					artist:"KND",
+					mp3:"files/ZSERTOF_MSTR.mp3",
+					duration:"6.21"
+				}/*,
+				{
 					title:"Better Days",
 					artist:"Bensound",
 					mp3:"files/bensound-betterdays.mp3",
@@ -150,25 +168,7 @@ $(document).ready(function()
 					artist:"Bensound",
 					mp3:"files/bensound-sunny.mp3",
 					duration:"2.20"
-				},
-				{
-					title:"Better Days",
-					artist:"Bensound",
-					mp3:"files/bensound-betterdays.mp3",
-					duration:"2.33"
-				},
-				{
-					title:"Dubstep",
-					artist:"Bensound",
-					mp3:"files/bensound-dubstep.mp3",
-					duration:"2.04"
-				},
-				{
-					title:"Sunny",
-					artist:"Bensound",
-					mp3:"files/bensound-sunny.mp3",
-					duration:"2.20"
-				}
+				}*/
 			];
 
 			var options =
@@ -186,7 +186,7 @@ $(document).ready(function()
 				supplied: 'oga, mp3',
 				useStateClassSkin: true,
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 1.0,
 				muted: false,
 				backgroundColor: '#000000',
 				cssSelectorAncestor: '#jp_container_1',

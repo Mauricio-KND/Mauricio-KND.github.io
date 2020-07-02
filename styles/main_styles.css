@@ -653,7 +653,7 @@ section
 }
 .home_content
 {
-
+	
 }
 .home_subtitle
 {
@@ -727,7 +727,7 @@ section
 .featured_album_image
 {
 	width: calc(100% + 42px);
-	height: 722px;
+	height: 700px;
 }
 .featured_album_image img
 {
@@ -740,7 +740,7 @@ section
 	right: 0;
 	width: 100%;
 	height: 100%;
-	background: #de4f32;
+	background: black;
 	z-index: 1;
 	-webkit-transition: all 1000ms ease;
 	-moz-transition: all 1000ms ease;
