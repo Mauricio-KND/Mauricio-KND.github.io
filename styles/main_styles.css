@@ -599,14 +599,14 @@ section
 .home
 {
 	width: 100%;
-	height: 892px;
+	height: 400px;
 	padding-left: 51px;
 	padding-right: 52px;
 }
 .home_slider_container
 {
 	width: 100%;
-	height: 90%;
+	height: 100%;
 }
 .home_slider.owl-theme .owl-nav.disabled + .owl-dots
 {
@@ -708,7 +708,7 @@ section
 
 .featured_album
 {
-	padding-top: 107px;
+	padding-top: 80px;
 }
 .featured_background
 {
@@ -722,12 +722,12 @@ section
 }
 .featured_row
 {
-	margin-top: 71px;
+	margin-top: 40px;
 }
 .featured_album_image
 {
 	width: calc(100% + 42px);
-	height: 700px;
+	height: 500px;
 }
 .featured_album_image img
 {
@@ -1098,7 +1098,7 @@ section
 
 .shows
 {
-	padding-top: 175px;
+	padding-top: 100px;
 }
 .shows_row
 {
@@ -1110,12 +1110,12 @@ section
 }
 .shows_image
 {
-	left: -98px;
-	width: calc(100% + 252px);
+	left: -208px;
+	width: calc(100% + 152px);
 }
 .shows_image img
 {
-	max-width: 100%;
+	max-width: 80%;
 }
 .shows_image .image_overlay
 {
