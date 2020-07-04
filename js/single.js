@@ -206,8 +206,6 @@ $(document).ready(function () {
 				warningAlerts: false
 			});
 		}
-
-		
 	}
 
 	/* 
