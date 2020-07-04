@@ -99,9 +99,9 @@ $(document).ready(function()
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Better Days",
-							artist:"Bensound",
-							mp3:"files/bensound-betterdays.mp3"
+						title:"Jaw (KND ANLG RMX) / Kata Mercado / Techsound Recordings",
+							artist:"Kata Mercado",
+							mp3:"files/Jaw (KND ANLG RMX).mp3"
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -118,7 +118,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 1.0,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -131,9 +131,9 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Dubstep",
-						artist:"Bensound",
-						mp3:"files/bensound-dubstep.mp3",
+						title:"Will Never Shine (KND Remix) / ÅNTÆGØNIST / Bad Reputation",
+						artist:"ÅNTÆGØNIST",
+						mp3:"files/Will Never Shine (KND Remix).mp3",
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
@@ -150,7 +150,7 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 1.0,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
@@ -163,9 +163,9 @@ $(document).ready(function()
 			$("#jplayer_3").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Sunny",
-						artist:"Bensound",
-						mp3:"files/bensound-sunny.mp3",
+						title:"Scorpio Rising (K.N.D. Remix) / Mike Humphries / Techsound Records",
+						artist:"Mike Humphries",
+						mp3:"files/Scorpio Rising K.N.D. Remix.mp3",
 					});
 				},
 				play: function() { // To avoid multiple jPlayers playing together.
