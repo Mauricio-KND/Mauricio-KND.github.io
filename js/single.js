@@ -99,7 +99,7 @@ $(document).ready(function()
 			$("#jplayer_1").jPlayer({
 				ready: function () {
 					$(this).jPlayer("setMedia", {
-						title:"Jaw (KND ANLG RMX) / Kata Mercado / Techsound Recordings",
+						title:"Jaw (KND ANLG RMX) / Kata Mercado / Techsound Records",
 							artist:"Kata Mercado",
 							mp3:"files/Jaw (KND ANLG RMX).mp3"
 					});
@@ -182,13 +182,45 @@ $(document).ready(function()
 				keyEnabled: true,
 				solution: 'html',
 				preload: 'metadata',
-				volume: 0.2,
+				volume: 1.0,
 				muted: false,
 				backgroundColor: '#000000',
 				errorAlerts: false,
 				warningAlerts: false
 			});
-		}	
+		}
+		
+		if($("#jplayer_4").length)
+		{
+			$("#jplayer_4").jPlayer({
+				ready: function () {
+					$(this).jPlayer("setMedia", {
+						title:"Human Factor (KND Remix) / Modular Phaze, Gostwork / Mephyst",
+						artist:"Modular Phaze, Gostwork",
+						mp3:"files/Human Factor (KND Remix).mp3",
+					});
+				},
+				play: function() { // To avoid multiple jPlayers playing together.
+					$(this).jPlayer("pauseOthers");
+				},
+				swfPath: "plugins/jPlayer",
+				supplied: "mp3",
+				cssSelectorAncestor: "#jp_container_4",
+				wmode: "window",
+				globalVolume: true,
+				useStateClassSkin: true,
+				autoBlur: false,
+				smoothPlayBar: true,
+				keyEnabled: true,
+				solution: 'html',
+				preload: 'metadata',
+				volume: 1.0,
+				muted: false,
+				backgroundColor: '#000000',
+				errorAlerts: false,
+				warningAlerts: false
+			});
+		}
 	}
 
 	/* 
