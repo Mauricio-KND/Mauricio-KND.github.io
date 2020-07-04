@@ -221,6 +221,38 @@ $(document).ready(function()
 				warningAlerts: false
 			});
 		}
+
+		if($("#jplayer_5").length)
+		{
+			$("#jplayer_5").jPlayer({
+				ready: function () {
+					$(this).jPlayer("setMedia", {
+						title:"Industrial Party (K.N.D. Remix) / The Zodiac / Bad Reputation",
+						artist:"Modular Phaze, Gostwork",
+						mp3:"files/Industrial Party (K.N.D. Remix).mp3",
+					});
+				},
+				play: function() { // To avoid multiple jPlayers playing together.
+					$(this).jPlayer("pauseOthers");
+				},
+				swfPath: "plugins/jPlayer",
+				supplied: "mp3",
+				cssSelectorAncestor: "#jp_container_4",
+				wmode: "window",
+				globalVolume: true,
+				useStateClassSkin: true,
+				autoBlur: false,
+				smoothPlayBar: true,
+				keyEnabled: true,
+				solution: 'html',
+				preload: 'metadata',
+				volume: 1.0,
+				muted: false,
+				backgroundColor: '#000000',
+				errorAlerts: false,
+				warningAlerts: false
+			});
+		}
 	}
 
 	/* 
