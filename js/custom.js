@@ -282,7 +282,7 @@ $(document).ready(function()
 			$("#jplayer_2").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"Nothing But a Cat",
+				title:"Nothing But a Cat / Cubek Label / 2017",
 					artist:"KND",
 					mp3:"files/Nothing But a Cat.wav"
 			});
@@ -314,7 +314,7 @@ $(document).ready(function()
 			$("#jplayer_3").jPlayer({
 		ready: function () {
 			$(this).jPlayer("setMedia", {
-				title:"I Miss You",
+				title:"I Miss You / Cubek Label / 2014",
 					artist:"KND",
 					mp3:"files/I Miss You.mp3"
 			});
