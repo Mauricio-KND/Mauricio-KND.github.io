@@ -1236,7 +1236,7 @@ section
 .single_player_container
 {
 	width: calc(100% + 12px);
-	background: #FFFFFF;
+	background: gray;
 	left: -10px;
 	margin-top: 62px;
 }
