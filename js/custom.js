@@ -307,7 +307,39 @@ $(document).ready(function()
 		errorAlerts: false,
 		warningAlerts: false
 	});
-		}	
+		}
+		
+		if($("#jplayer_3").length)
+		{
+			$("#jplayer_3").jPlayer({
+		ready: function () {
+			$(this).jPlayer("setMedia", {
+				title:"I Miss You",
+					artist:"KND",
+					mp3:"files/I Miss You.mp3"
+			});
+		},
+		play: function() { // To avoid multiple jPlayers playing together.
+			$(this).jPlayer("pauseOthers");
+		},
+		swfPath: "plugins/jPlayer",
+		supplied: "mp3",
+		cssSelectorAncestor: "#jp_container_3",
+		wmode: "window",
+		globalVolume: true,
+		useStateClassSkin: true,
+		autoBlur: false,
+		smoothPlayBar: true,
+		keyEnabled: true,
+		solution: 'html',
+		preload: 'metadata',
+		volume: 1.0,
+		muted: false,
+		backgroundColor: '#000000',
+		errorAlerts: false,
+		warningAlerts: false
+	});
+		}
 	}
 
 });
